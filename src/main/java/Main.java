@@ -11,6 +11,5 @@ public class Main {
         liczbaDoSprawdzenia.czyLiczbaJestPierwsza(scanner.nextInt());
         System.out.println(liczbaDoSprawdzenia);
 
-
     }
 }
