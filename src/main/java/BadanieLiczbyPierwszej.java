@@ -1,7 +1,10 @@
 public class BadanieLiczbyPierwszej {
+    public static void main(String[] args) {
+
+    }
 
 
-    public boolean czyLiczbaJestPierwsza(int liczba) {
+    public static boolean czyLiczbaJestPierwsza(int liczba) {
 
         if (liczba < 2) {
             return false;

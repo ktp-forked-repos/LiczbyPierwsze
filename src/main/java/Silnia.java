@@ -15,29 +15,32 @@ public class Silnia {
 
         System.out.println(silnia(5));
 
+        System.out.println("////////////////////////////");
+
+
         Scanner scanner = new Scanner(System.in);
-        int skanerSilni = scanner.nextInt();
-
-
         System.out.println("Podaj liczbę do zeskanowania");
+        int skanerSilni = scanner.nextInt();
         System.out.println(silniaZeScannera(skanerSilni));
+
+
+
+        System.out.println("////////////////////////////");
     }
 
 
-
-    private static int silnia(int i)
-    {
-        if (i < 1)
+    public static int silnia(int i) {
+        if (i < 2)
             return 1;
         else
             return i * silnia(i - 1);
     }
 
-    private static int silniaZeScannera(int skanerSilni)
-    {if (skanerSilni < 1)
-        return 1;
-    else
-        return  skanerSilni* silnia(skanerSilni - 1);
+    private static int silniaZeScannera(int skanerSilni) {
+        if (skanerSilni < 2)
+            return 1;
+        else
+            return skanerSilni * silnia(skanerSilni - 1);
 
     }
 
